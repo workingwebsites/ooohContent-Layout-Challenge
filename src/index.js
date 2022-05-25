@@ -15,7 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="contentlayoutchallenge" element={<ContentLayoutChallenge />} />
+          <Route path="content-layout" element={<ContentLayoutChallenge />} />
         </Route>
       </Routes>
     </BrowserRouter>
