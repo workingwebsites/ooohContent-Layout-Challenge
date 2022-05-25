@@ -1,0 +1,22 @@
+.app {
+  text-align: center;
+}
+
+.page-home {
+  min-height: 100vh;
+  padding: 25px;
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  background-color: #282c34;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(255,255,255, 0.2);
+}

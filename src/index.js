@@ -4,8 +4,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Switch, Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import ContentLayoutChallenge from "./pages/ContentLayoutChallenge";
-//import './index.css';
-//import App from './App';
+import './App.scss';
 import reportWebVitals from "./reportWebVitals";
 
 export default function App() {
