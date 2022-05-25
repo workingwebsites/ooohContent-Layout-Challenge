@@ -13,10 +13,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="content-layout" element={<ContentLayoutChallenge />} />
-        </Route>
+        <Route index element={<Home />} />
+        <Route path="content-layout" element={<ContentLayoutChallenge />} />
       </Routes>
     </BrowserRouter>
   );
