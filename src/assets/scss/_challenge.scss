@@ -53,14 +53,3 @@ img {
 .content-element__content-btn {
     margin-top: $container-padding;
 }
-
-/* Media queries
--------------------------------------------------*/
-@media screen and (min-width: 508px) and (max-width:774px) {
-
-    /*Prevents odd item from taking up full row */
-    .content-element {
-        max-width: 50%;
-    }
-
-}
