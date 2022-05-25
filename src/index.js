@@ -1,10 +1,9 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Switch, Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import ContentLayoutChallenge from "./pages/ContentLayoutChallenge";
-import './App.scss';
+import "./App.scss";
 import reportWebVitals from "./reportWebVitals";
 
 export default function App() {
