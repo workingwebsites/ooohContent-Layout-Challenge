@@ -40,9 +40,10 @@ export default class ContentLayoutChallenge extends Component {
 
   render() {
     return (
-      <div className="page">
+      <div className="page container container-fluid">
         <h1 className="mt-3 mb-5">Content Layout Challenge</h1>
-        <div className="content-element-list">
+
+        <div className="content-element-list row">
           {this.contentItems.map((item, idx) => (
             <ContentElement key={idx} authorImg={item.authorImg} authorName={item.authorName} authorEmail={item.authorEmail} img={item.img} heading={item.heading} copy={item.copy} btnCopy={item.btnCopy} />
           ))}

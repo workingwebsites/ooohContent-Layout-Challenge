@@ -1,0 +1,55 @@
+/* Page
+-------------------------------------------------*/
+.page {
+    padding-bottom: $container-padding;
+}
+
+img {
+    border-radius: $border-radius;
+}
+
+/* Author
+-------------------------------------------------*/
+.content-element__author {
+    background-color: #d9d9d9;
+    text-align: center;
+    padding: $container-padding;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+}
+
+.content-element__author-img {
+    width: 40%;
+}
+
+.content-element__author-name {
+    font-size: 1.5em;
+    padding-top: 0.75em;
+}
+
+.content-element__author-email {
+    font-size: 1.25em;
+}
+
+/* Book
+-------------------------------------------------*/
+.content-element__content {
+    padding: $container-padding;
+    text-align: center;
+    background-color: #f6f7f9;
+    border: 1px solid #dadada;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+}
+
+.content-element__content-copy {
+    font-size: 1.25em;
+}
+
+.content-element__content-heading {
+    margin-top: .75em;
+}
+
+.content-element__content-btn {
+    margin-top: $container-padding;
+}
