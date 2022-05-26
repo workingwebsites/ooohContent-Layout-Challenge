@@ -58,9 +58,16 @@ img {
 /* Media Queries
 -------------------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-	// do something in this width range.
+
+    // do something in this width range.
+    .content-element__author {
+        max-width: 50%;
+        display: inline-block;
+    }
+
     .content-element__content {
-        background-color: aqua;
+        max-width: 50%;
+        display: inline-block;
     }
 }
 
