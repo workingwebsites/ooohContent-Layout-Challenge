@@ -1,3 +1,9 @@
+# Lisa's Content Challenge
+This is based on the assigned challenge https://github.com/danielle-o3h/content-layout-challenge  
+
+I wasn't able to load the app, so I recreated it as a new React app to work with.  Everything should be the same, the formatting has been done.
+
+Please contact me if you have any questions.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
