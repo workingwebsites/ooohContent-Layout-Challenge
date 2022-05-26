@@ -42,9 +42,6 @@ img {
     border-bottom-right-radius: $border-radius;
 }
 
-.content-element__content-copy {
-    font-size: .95em;
-}
 
 .content-element__content-heading {
     margin-top: .75em;
@@ -54,41 +51,32 @@ img {
     margin-top: $container-padding;
 }
 
-.test{
-    display: flex;
-    flex-direction: column ;
-}
 
-.testBox{
-    border: 1px solid #000000;
-    width: 100%;
-}
 /* Media Queries
 -------------------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 
-    // do something in this width range.
-    /*
+    //Displays in md range
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
     .content-element__author {
-        max-width: 50%;
-        display: inline-block;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: $border-radius;
+        width: 30%;
+        padding-top: 2.5em;
+    }
+
+    .content-element__author-img {
+        width: 60%;
     }
 
     .content-element__content {
-        max-width: 50%;
-        display: inline-block;
-    }
-    */
-
-    .test{
-        display: flex;
-        flex-direction: row ;
-    }
-    
-    .testBox{
-        border: 1px solid #000000;
-        width: 50%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: $border-radius;
+        text-align: left;
+        width: 70%;
     }
 }
-
-/* https://getbootstrap.com/docs/5.0/utilities/flex/ */
