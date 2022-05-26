@@ -5,7 +5,7 @@ export default class ContentElement extends Component {
     const { img, heading, copy, btnCopy, authorImg, authorName, authorEmail } = this.props;
 
     return (
-      <div className="content-element col-12  col-md-6 col-lg-4 ">
+      <div className="content-element col-12  col-md-12 col-lg-4 ">
         {/* Author */}
         <div className="content-element__author">
           <img className="content-element__author-img img-fluid" src={authorImg} alt={authorName} />
